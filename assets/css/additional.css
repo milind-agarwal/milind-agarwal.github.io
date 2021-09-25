@@ -11,3 +11,21 @@ h3.name {
 .author-social {
   font-size: 1.5rem;
 }
+
+
+.author_list_paper {
+  font-size: 90%
+}
+
+.venue {
+  font-size: 90%
+}
+
+.class_project_class{
+  font-family: 'FontAwesome';
+}
+
+.class_project_title {
+  border-bottom: 1px dotted #000;
+  text-decoration: none;
+}
