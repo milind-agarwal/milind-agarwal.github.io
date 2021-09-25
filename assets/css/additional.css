@@ -1,0 +1,13 @@
+my_basics {
+  display: inline-block;
+  text-align: center;
+}
+
+h3.name {
+  text-align: center;
+  margin-left: 25%;
+}
+
+.author-social {
+  font-size: 1.5rem;
+}
