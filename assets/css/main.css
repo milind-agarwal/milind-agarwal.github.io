@@ -1717,7 +1717,7 @@ body {
         display: inline;
         float: left;
         width: 50%;
-        margin-left: 0%;
+        margin-left: 5%;
         margin-right: 0%; } }
     @media only screen and (min-width: 86.375em) {
       #main article {
@@ -1847,6 +1847,26 @@ body {
   .article-author-side .bio-photo {
     max-width: 110px;
     border-radius: 150px; }
+
+   /*PHONES MEDIA QUERY*/
+  @media screen and (max-width: 37.5em) {
+    .article-author-side {
+        display: block;
+        max-width: 50%;
+        float: left;
+        margin-left: 25%;
+
+      }
+      .my_name {
+        margin-left: -30%;
+      margin-bottom: 5%;
+      margin-top: -10%;
+      }
+
+      .mail_icon{
+        margin-left: 30%!important;
+      }
+    }
   @media only screen and (min-width: 37.5em) {
     .article-author-side {
       display: block;
