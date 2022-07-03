@@ -1850,6 +1850,8 @@ body {
 
    /*PHONES MEDIA QUERY*/
   @media screen and (max-width: 37.5em) {
+
+
     .article-author-side {
         display: block;
         max-width: 50%;
@@ -1868,6 +1870,10 @@ body {
       }
     }
   @media only screen and (min-width: 37.5em) {
+    .mail_icon{
+      margin-left: 30%!important;
+    }
+
     .article-author-side {
       display: block;
       display: inline;
@@ -1888,6 +1894,7 @@ body {
       .article-author-side .author-social {
         margin-bottom: 5px; } }
   @media only screen and (min-width: 62em) {
+
     .article-author-side h3,
     .article-author-side .bio-photo,
     .article-author-side p,
