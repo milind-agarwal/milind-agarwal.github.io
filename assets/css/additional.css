@@ -34,3 +34,40 @@ h3.name {
   /* float: right; */
   margin-left: 35%;
 }
+
+/* DROPDOWN */
+
+/* .dropdown .dropbtn {
+  font-size: 1em;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-family: inherit;
+  margin: 0;
+}
+
+*/
+.dropdown-content {
+  display: none;
+  width: 10%;
+  float: right;
+  margin-right: 25%;
+  background-color: white;
+  padding: 1% 1%;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  float: right;
+  right: -6%;
+  background-color: white;
+
+}
