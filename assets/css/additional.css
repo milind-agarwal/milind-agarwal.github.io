@@ -78,4 +78,5 @@ h3.name {
 .urdu-text {
   text-align: right;
   line-height: 2em;
+  direction: rtl;
 }
