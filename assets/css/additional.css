@@ -72,3 +72,10 @@ h3.name {
 
 
 .show {display: block;}
+
+
+
+.urdu-text {
+  text-align: right;
+  line-height: 2em;
+}
