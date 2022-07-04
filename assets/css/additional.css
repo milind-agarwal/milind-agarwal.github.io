@@ -29,3 +29,8 @@ h3.name {
   border-bottom: 1px dotted #000;
   text-decoration: none;
 }
+
+.right-align-nav {
+  /* float: right; */
+  margin-left: 35%;
+}
