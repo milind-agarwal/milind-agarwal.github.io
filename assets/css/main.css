@@ -1168,6 +1168,26 @@ svg:not(:root) {
     background-color: #fff;
     color: #111; }
 
+  .btn-outline-success {
+    background-color: #5cb85c;
+    color: #fff;
+    border-color: #5cb85c; }
+    .btn-outline-success:visited {
+      color: #fff; }
+    .btn-outline-success:hover {
+      background-color: #fff;
+      color: #5cb85c; }
+
+  .btn-outline-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545; }
+    .btn-outline-success:visited {
+      color: #fff; }
+    .btn-outline-success:hover {
+      background-color: #fff;
+      color: #dc3545; }
+
 .btn-success {
   background-color: #5cb85c;
   color: #fff;
