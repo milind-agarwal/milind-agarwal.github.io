@@ -1872,7 +1872,7 @@ body {
     border-radius: 150px; }
 
    /*PHONES MEDIA QUERY*/
-  @media screen and (max-width: 37.5em) {
+  @media screen and (max-width: 600px) {
 
 
     .article-author-side {
@@ -1889,12 +1889,28 @@ body {
       }
 
       .mail_icon{
-        margin-left: 30%!important;
+        margin-left: 25%!important;
       }
+
     }
-  @media only screen and (min-width: 37.5em) {
+
+    @media only screen and (min-width: 600px) and (max-width: 675px) {
+      .author-social{
+        position: absolute;
+        left: 9%;
+      }
+
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 850px) {
+      .mail_icon{
+        margin-left: 10%!important;
+      }
+
+    }
+  @media only screen and (min-width: 600px) {
     .mail_icon{
-      margin-left: 30%!important;
+      margin-left: 10%!important;
     }
 
     .article-author-side {
