@@ -80,3 +80,12 @@ h3.name {
   line-height: 2em;
   direction: rtl;
 }
+
+.urdu-button, #urdu-body div{
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.urdu-lateef {
+  font-family: 'Lateef', cursive !important;
+  font-size: 1.5em;
+}

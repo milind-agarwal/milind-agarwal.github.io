@@ -36,6 +36,10 @@ toggle between hiding and showing the dropdown content */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
@@ -50,3 +54,9 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+$("a.lateef").click(function(){
+   // var element = $("div");
+   // element[2].style.fontFamily = "Lateef", cursive;
+});
