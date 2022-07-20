@@ -1679,7 +1679,10 @@ body {
   overflow: hidden; }
   @media only screen and (min-width: 37.5em) {
     .js .nav ul {
-      max-height: 30em; } }
+      max-height: 30em; }
+
+
+    }
 
 .js .nav .active + ul {
   max-height: 30em;

@@ -84,3 +84,19 @@ h3.name {
 .urdu-button, #urdu-body div{
   font-family: 'Noto Nastaliq Urdu', serif;
 }
+
+.xs-nav {
+  overflow: visible !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .xs-language {
+    position: absolute !important;
+    top: 6% !important;
+    right: 0% !important;
+  }
+
+  .navigation-wrapper {
+    padding-bottom: 7em !important;
+  }
+}
