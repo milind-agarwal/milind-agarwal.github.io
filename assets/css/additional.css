@@ -1,3 +1,15 @@
+
+a.dark-mode:hover {
+  color: rgb(225, 168, 99);
+}
+a.dark-mode {
+  color: white;
+}
+
+button.dark-mode {
+  color: white;
+}
+
 my_basics {
   display: inline-block;
   text-align: center;

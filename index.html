@@ -47,7 +47,18 @@
 <!--<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'> -->
 <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic|Archivo+Narrow|Barlow+Condensed|IBM+Plex+Sans:400,700|Pragati+Narrow" rel="stylesheet" type="text/css">
 
-<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style>
+
+
+<script>
+	if (window.localStorage['globalMode'] == 'dark-mode') {
+		document.documentElement.style.setProperty('--body_background_color', 'rgb(29, 30, 32)');
+		document.documentElement.style.setProperty('--body_text_color', 'rgb(218, 218, 219)');
+	}
+</script>
+
+
+</head>
 
 <body class="page">
 
@@ -59,13 +70,35 @@
 		<nav role="navigation" id="site-nav" class="nav">
 		    <ul class="xs-nav" >
 					    <li><a href="milind_agarwal_cv.pdf" target="_blank">CV</a></li>
-							<li><a href="publications.html">Publications</a></li>
+						<li><a href="publications.html">Publications</a></li>
+						<li>
+								<a id="moon-anchor">
+									<svg id="moon" xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+										<path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+									</svg>
+								</a>
+								<a id="sun-anchor">
+									<svg id="sun" xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+										<circle cx="12" cy="12" r="5"></circle>
+										<line x1="12" y1="1" x2="12" y2="3"></line>
+										<line x1="12" y1="21" x2="12" y2="23"></line>
+										<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+										<line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+										<line x1="1" y1="12" x2="3" y2="12"></line>
+										<line x1="21" y1="12" x2="23" y2="12"></line>
+										<line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+										<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+									</svg>
+								</a>
+						
+						</li>
 							<div class="dropdown xs-language">
 							  <button onclick="myFunction()" class="dropbtn">English</button>
 							  <div id="myDropdown" class="dropdown-content">
 							    <a href="hindi/index.html">हिंदी</a>
 							  </div>
 							</div>
+							
 		    </ul>
 
 		</nav>
