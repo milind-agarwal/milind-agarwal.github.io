@@ -68,7 +68,10 @@ function dark_mode() {
     buttons[i].classList.add('dark-mode')
   }
 
-  document.getElementById("myDropdown").classList.add('dark-mode')
+  element = document.getElementById("myDropdown")
+  if (element != null) {
+    element.classList.add('dark-mode')
+  }
 
   // Action to change the logo again 
 
@@ -97,8 +100,10 @@ function light_mode() {
     buttons[i].classList.remove('dark-mode')
   }
 
-  document.getElementById("myDropdown").classList.remove('dark-mode')
-
+  element =  document.getElementById("myDropdown")
+  if (element != null) {
+    element.classList.remove('dark-mode')
+  }
   // Action to change the logo again 
 
   $("#moon-anchor")[0].style.display = 'inline'

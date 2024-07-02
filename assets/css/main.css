@@ -1986,6 +1986,11 @@ body {
 .article-wrap p > a,
 .article-wrap li > a {
   border-bottom: 1px dotted #b4b4b4; }
+
+ p > a,
+ li > a {
+  border-bottom: 1px dotted #b4b4b4; }
+  
   .article-wrap p > a:hover,
   .article-wrap li > a:hover {
     border-bottom-style: solid; }
